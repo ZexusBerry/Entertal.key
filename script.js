@@ -27,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         },  
+            "Wa9CxHmoUZF4Hr2TOeCGTo8IW": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/tpFhkMwp0wWVQsm8D0roaPyNpH.rar",
+            name: "Inselium Skeet | CJoktoEDImk0vj0IJT"
+        },  
             "idzM7GZQNG0t2h8JShY0MvKSTfkSTyPVFo6au4hh": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
