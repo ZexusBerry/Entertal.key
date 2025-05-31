@@ -1,0 +1,553 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Прелоадер */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f0c29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.loader-square {
+    width: 20px;
+    height: 80px;
+    margin: 0 5px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    animation: loaderAnimation 1.2s infinite ease-in-out;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(142, 45, 226, 0.5);
+}
+
+.loader-square:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.loader-square:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.loader-square:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.loader-square:nth-child(4) {
+    animation-delay: 0.45s;
+}
+
+.loader-square:nth-child(5) {
+    animation-delay: 0.6s;
+}
+
+.loader-square:nth-child(6) {
+    animation-delay: 0.75s;
+}
+
+.loader-square:nth-child(7) {
+    animation-delay: 0.9s;
+}
+
+@keyframes loaderAnimation {
+    0%, 40%, 100% {
+        transform: scaleY(0.5);
+    }
+    20% {
+        transform: scaleY(1);
+    }
+}
+
+/* Основной контент */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.main-content {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.info-panel {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards 0.7s;
+}
+
+.info-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8e2de2;
+}
+
+.info-panel p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.feature:hover {
+    background: rgba(142, 45, 226, 0.1);
+    transform: translateX(5px);
+}
+
+.feature i {
+    color: #8e2de2;
+    font-size: 18px;
+}
+
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.particle {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: float 15s infinite linear;
+}
+
+.particle:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 5%;
+    animation-duration: 20s;
+}
+
+.particle:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    top: 60%;
+    left: 15%;
+    animation-duration: 15s;
+    animation-delay: 2s;
+}
+
+.particle:nth-child(3) {
+    width: 250px;
+    height: 250px;
+    top: 30%;
+    left: 70%;
+    animation-duration: 18s;
+    animation-delay: 4s;
+}
+
+.particle:nth-child(4) {
+    width: 150px;
+    height: 150px;
+    top: 70%;
+    left: 80%;
+    animation-duration: 12s;
+    animation-delay: 1s;
+}
+
+.particle:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 40%;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+.particle:nth-child(6) {
+    width: 180px;
+    height: 180px;
+    top: 50%;
+    left: 60%;
+    animation-duration: 16s;
+    animation-delay: 5s;
+}
+
+.particle:nth-child(7) {
+    width: 220px;
+    height: 220px;
+    top: 80%;
+    left: 30%;
+    animation-duration: 14s;
+    animation-delay: 2s;
+}
+
+.particle:nth-child(8) {
+    width: 120px;
+    height: 120px;
+    top: 40%;
+    left: 20%;
+    animation-duration: 11s;
+    animation-delay: 6s;
+}
+
+.particle:nth-child(9) {
+    width: 170px;
+    height: 170px;
+    top: 10%;
+    left: 80%;
+    animation-duration: 13s;
+    animation-delay: 3s;
+}
+
+.particle:nth-child(10) {
+    width: 90px;
+    height: 90px;
+    top: 90%;
+    left: 50%;
+    animation-duration: 9s;
+    animation-delay: 4s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-100px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
+
+/* Карточка с формой */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 450px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards 0.5s;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* Группа ввода */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.key-input {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.key-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(142, 45, 226, 0.5);
+    box-shadow: 0 5px 20px rgba(142, 45, 226, 0.3);
+}
+
+.key-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-48%); /* Исправленное положение */
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.key-input:focus + .input-icon {
+    color: #8e2de2;
+    transform: translateY(-48%) scale(1.2);
+}
+
+/* Кнопка */
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(142, 45, 226, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(142, 45, 226, 0.6);
+}
+
+.submit-btn:active {
+    transform: translateY(1px);
+}
+
+.submit-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+}
+
+.submit-btn:hover::before {
+    left: 100%;
+}
+
+/* Сообщение о результате */
+.result-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.result-message.success {
+    background: rgba(46, 213, 115, 0.2);
+    color: #2ed573;
+    border: 1px solid rgba(46, 213, 115, 0.3);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.result-message.error {
+    background: rgba(255, 71, 87, 0.2);
+    color: #ff4757;
+    border: 1px solid rgba(255, 71, 87, 0.3);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.result-message.warning {
+    background: rgba(255, 165, 0, 0.2);
+    color: #ffa500;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* История ключей */
+.key-history {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.key-history h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#usedKeysList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.used-key {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.used-key .key-value {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.used-key .key-status {
+    color: #ff4757;
+    font-size: 12px;
+}
+
+.used-key.redeemed .key-status {
+    color: #ffa500;
+}
+
+/* Плавающие иконки */
+.floating-icons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.floating-icons i {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.3);
+    animation: floatIcon 4s infinite ease-in-out;
+    cursor: default;
+}
+
+.floating-icons i:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.floating-icons i:nth-child(2) {
+    animation-delay: 1.3s;
+}
+
+.floating-icons i:nth-child(3) {
+    animation-delay: 2.6s;
+}
+
+@keyframes floatIcon {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Анимации */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card, .info-panel {
+        padding: 30px 20px;
+    }
+    
+    .title {
+        font-size: 24px;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+    }
+    
+    .key-input {
+        padding: 12px 45px 12px 15px;
+        font-size: 14px;
+    }
+    
+    .submit-btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+}

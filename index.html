@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunTine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="container hidden">
+        <div class="background-animation">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="main-content">
+            <div class="info-panel">
+                <h2>Information</h2>
+                <p>Use the unique code to get what you want.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Protect Worm</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant activation</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-link"></i>
+                        <span>Unique links</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h1 class="title">Enter key</h1>
+                <p class="subtitle">Red</p>
+                
+                <div class="input-group">
+                    <input type="text" id="keyInput" placeholder="..." class="key-input">
+                    <span class="input-icon">
+                        <i class="fas fa-key"></i>
+                    </span>
+                </div>
+                
+                <button id="submitBtn" class="submit-btn">Check</button>
+                
+                <div class="result-message" id="resultMessage"></div>
+                
+                <div class="key-history">
+                    <h3>Key History</h3>
+                    <div id="usedKeysList"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="floating-icons">
+            <i class="fas fa-lock"></i>
+            <i class="fas fa-shield-alt"></i>
+            <i class="fas fa-code"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
