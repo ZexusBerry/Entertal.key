@@ -8,11 +8,27 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const validKeys = {
             "OCwA3vrviAG03NpTNnqhxM7FT7YwQCEjthfh0sLh": {
-            url: "???",
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
-        },        
-            "GOLDEN-KEY-777": {
-            url: "???",
+        },
+            "HxV731tdDkc4ADKvAsCSTxNGPSBpzSOuVlwLUwHQ": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
+            name: "CFG by NewCum"
+        },  
+            "Epj4L2eLDGu4igg6N8k2Ot1oZx0O9eEuTRhTH7EN": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
+            name: "CFG by NewCum"
+        },  
+            "bC3R6t9OVZHok7vJdb4AQl1MHy78piRsU0VJEl1d": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
+            name: "CFG by NewCum"
+        },  
+            "nRfWo2nZdnN52Vm4AY85pEUOiaYA0zd6QPjEEIQs": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
+            name: "CFG by NewCum"
+        },  
+            "idzM7GZQNG0t2h8JShY0MvKSTfkSTyPVFo6au4hh": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         }
     };
