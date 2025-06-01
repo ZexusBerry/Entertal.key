@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "idzM7GZQNG0t2h8JShY0MvKSTfkSTyPVFo6au4hh": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
-        }
+        },
             "t9INtbdrQHdlyObF2mQRDKux3qobo4Onhp6tvGC": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/AngelWings-Setts%20By%20Zexus%20!%20Defensive.rar",
             name: "AngelWings-Setts.Defensive | By Zexus"
