@@ -35,6 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         },
+            "OTM0hhcvpzJZvnCBfyY7G5oDuhfu4ftLjG": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Fast..cheat.rar",
+            name: "Private-key | Fast-injection | Premium"
+        },
             "t9INtbdrQHdlyObF2mQRDKux3qobo4Onhp6tvGC": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/AngelWings-Setts%20By%20Zexus%20!%20Defensive.rar",
             name: "AngelWings-Setts.Defensive | By Zexus"
