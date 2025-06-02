@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         },
-            "srnAssyfFlcY6UfYLV9EvqftTAsZFxPzuSUpVrYTZpEZbCtINDHa8DEXitlFSJ6FxE2bhEi8odY0t0vQIZiRmtbETtwKHz763Di": {
+            "srnAssyfFlcY6UfYLV9EvqftTAsZFxPzuSUpVrYTZpEZbCtINDHa8DEXitlFSJ6FxE2bhEi8odY0t0vQIZiRmtbETtwKHz763Di---": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Fast..cheat.rar",
             name: "Private-key | Fast-injection | Premium | By Zexus"
         },
