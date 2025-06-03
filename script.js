@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         },  
+            "RebellionOnTop | ZexusSetts.gg": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/ZexRebellion.rar",
+            name: "Rebellion Setts by Zexus"
+        },  
             "Wa9CxHmoUZF4Hr2TOeCGTo8IW": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/tpFhkMwp0wWVQsm8D0roaPyNpH.rar",
             name: "Inselium Skeet | CJoktoEDImk0vj0IJT"
