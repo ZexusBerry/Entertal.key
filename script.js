@@ -27,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
         },  
+            "m2x4MbA|Z%xof[B4$?Vs=}JsGu?uvs_-!>L4eO56-jG4*.4IEiIVxQr*u<,9w7A!9-TqN]3T*D:!7+C5qZEL75jER?b21ui2Dv]M2(ih#(F6#]LR}234SNH-q[ELk)jL0gKY$K,5Qr<_hwPE%geY3Sxv2.P_O?^6ZEz*#ZDD+x|6Q<+rvm)q{?y,xr1lSe}BeExElTV-[%,I#4{sX|!F>w_C&?n{#d.n#*aCUX^U&sHnK>ZL<h1}qK-E[tD}V-ii,TQH][oNge1:Nej),rhMlatB$*%ir}l?JAe>{{=x:A4bV4U0TY35?qy?g0JK*4[IXgdNRXtW(:AzRkF}Vg&*;pBUDz=mft7bl)$OG4GZDzt*nAW{NF?PyLhJjODHMgek2j$aZ0Z>j-fJv|^[Kv6xB$E-*v$3DiU@wm}!ep#h.h+n?Sx!6;K!?q!@zJ*3&B2?OQ$eU#}ghLMeAogUa1!#]12Yq$(?_%Hzu+[S30tA.V;^k6&tR%kyV]_C(!i*w(|pUzfc%SBY:zfOYkH0#fQLxzT3]4W7eZo9?>6Ji{X{5&MnY0sZb}t=[rryIpCc=,I9@aepcqw|]BVMKKfii@N5oe],s;<=d2,{beQSd;V$?;P}um62v^zb{FT3qjtn4TR9F2JG}Obo?H=ivB>+EPs[]vp#a|y7Ar0}R^qW<3B[3#R*9$v%|:$>p)ieBF)ChZ>hwHgG&eO:]xEt_mwg<F!0C0:<A@|V4txm;E.mw0C77G9pZ0!E-[ZR=8OQX]X-sxP-03H9AO>c,1s&85d!ih9H];]x$ltNV2>8L9*TdW-wU6EZ9Fav?W<(]d4:|v]ixc53(fL4;d_7%b<p[2w_F^_XJh12^.j{h1w)x$evc@{5D_#bvgOX[,wzH!wnK>ZrAt!,RweS]BQf&>|^Wnl]4Ze8OOg:k]=%t1O6EDq9e4wRS)4AY&No}RBQs>": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Zexus,%20LeakMe%20Plz.suck.rar",
+            name: "Leak Accounts By Zexus | UnderFuck"
+        },  
             "nRfWo2nZdnN52Vm4AY85pEUOiaYA0zd6QPjEEIQs": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/NewCum%20CFG.rar",
             name: "CFG by NewCum"
