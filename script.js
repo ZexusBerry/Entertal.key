@@ -51,6 +51,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Setts%20By%20Zexus%20Dad%20!%20Premium.rar",
             name: "Setts By Zexus Dad ! Premium + Sex"
         },
+            "hrKcqLwktvmpxomdJ0OTxkWKVowHtbtgqPastnP2eHyvrQeUFS4Pu4k7ope61w5aHnMUjUMMDSLrh1gFxWH2VVpAMd": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Inselium.rar",
+            name: "Inselium.lol | invite"
+        },
             "t9INtbdrQHdlyObF2mQRDKux3qobo4Onhp6tvGC": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/AngelWings-Setts%20By%20Zexus%20!%20Defensive.rar",
             name: "AngelWings-Setts.Defensive | By Zexus"
