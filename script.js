@@ -55,6 +55,10 @@ document.addEventListener('DOMContentLoaded', function() {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Inselium.rar",
             name: "Inselium.lol | invite"
         },
+            "6Q0iZykOi7tbLYTdxM8oESvbRPiymJ5aQB1BfP7ezrS6fJSuViGG89ROG8n3xWFogg9jqgEQN93HUcyajapfuwtQgopIgJy5Ca834y2DNTxEMkwy5XXelLFx3QgDL0OeGbXy0cxOly6SCJNOlAgJsFZB3XXhPhAurDHD37HHP79qjSGf13XHoAqU7SIqor3r5imbU3zkpGf0CkJJAQadI8Sbzbbq1cpT7h1rkKGI2Jyx6XTiePBWUhHGgRhxKXKymyxJk3lKXrDrNUfAU5OOrEYuNZu9F3SU57o1YaUT2ptX3d6rBVYblQCk7eBctL71qx924Ptb5WgFhL8aHGJBERrIdsWqMMMT0gXRmjwG7E9yrhCGVc6qzZTOGjGhQ0FjYppqHYJteCbubo1RYtaM8LktymVs3AKrWXjyaV85cDBpYMnmJbVnoCXtt1iSKar01MGmFU6T3W1Sj0tjGKpXfDzte3Tuy1YMMeuNXVmcyRiigSC7sxVq6n0qcWa7j1DBE5vuuS7SzqT6lv6bsesZDsigh9xpcXTzMf1EzgYjzIWZdBsQZvi27rQIXUQH4t8wPeakUb2oZGltblFRPjHWDY8qtEdmgBO3n1QGq4w0vypXEvWeULG0o2itwxPFBpDyPzOPw1VlGax9bwpM37hlPKPNh90ILgpJ4f39B9NKsGiJmuogI3Zt40Y9EpceH5DDEvJBsrsevvdB1NkwT94OhX1YuZJj47bUyFsoCRTHMuCuYgPpMhkq1XDqYWWBQddUaw5fKxI42dPa8Svol8h6lR3KocAfUJMR0yvhEblNUuBUv1jSLKYWJvXArCVWmSbYWr1ECHel5YXTiidJIldW7WiFeni80MmTs3Ios70JCpTzchtkTDFR7iYEMrKh1vTwY6S9IYJU80nRUlSNhAVBH8qeP9KZubOye3pHzK4oHzeMp8D7U8AO6sJIxX3g2oV76jkm1BJNh": {
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Inselium.rar",
+            name: "Inselium.lol | invite 2"
+        },
             "t9INtbdrQHdlyObF2mQRDKux3qobo4Onhp6tvGC": {
             url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/AngelWings-Setts%20By%20Zexus%20!%20Defensive.rar",
             name: "AngelWings-Setts.Defensive | By Zexus"
