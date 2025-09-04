@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "AngelWings-Setts.Defensive | By Zexus"
         },
             "VkVju4Z1Q03JIIbq0DWZiv0ZCMhzUzJrvS": {
-            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/Fr3i98II0FJi0ji40.rar",
+            url: "https://github.com/ZexusBerry/GSST3432423/raw/refs/heads/main/fkciki49i9kidifkk43m5kpo.rar",
             name: "Gamesense/skeet 30days | By Inselium"
         }
     };
@@ -211,4 +211,5 @@ document.addEventListener('DOMContentLoaded', function() {
         icon.style.color = 'rgba(255, 255, 255, 0.7)';
     });
 });
+
 
